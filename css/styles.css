@@ -1,1 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .pokemon-form {
+    margin-bottom: 20px;
+  }
+  
+  select, button {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: lightgreen;
+    color: black; 
+  }
 
+  .pokemon-info img {
+    width: 200px;
+  }
+  
